@@ -1,4 +1,4 @@
-#SUINCAP CRUD Personas
+# SUINCAP CRUD Personas
 ## Felix Nemecio Aguilar Mendoza
 
 Pasos para corrar la app en un ambiente local
@@ -20,3 +20,6 @@ Pasos para corrar la app en un ambiente local
 5. ejecuar en terminal el comando ```npm start```
 
 6. Si todo salio bien, ya podemos ver nuestro crud en localhost:4000 (o en el puerto que haya escrito en el archivo .env)
+
+### Postdata
+con el uso de sequelize solo es necesario crear la base de datos, las tablas son generadas usando los modelos de manera automatica por sequelize
