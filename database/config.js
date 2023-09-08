@@ -5,10 +5,11 @@ dotEnv.config({ path: './.env' });
 
 const db = new Sequelize({
 	dialect: 'mysql',
-	host: localhost,
-	database: id21235580_suinpac_personas_db,
-	username: id21235580_root,
-	password: Feneam_99,
+	host: process.env.DB_HOST,
+	port: process.env.DB_PORT,
+	database: process.env.DB,
+	username: process.env.DB_USER,
+	password: process.env.DB_PASSWORD,
 	logging: false,
 });
 
